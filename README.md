@@ -1,8 +1,7 @@
 # 刷新当前数据库全部视图
-Create procedure of refresh all view
 
 初次执行请运行上面sql文件创建存储过程，之后可以执行下面命令
-``` sql
+```TSQL
 EXEC sp_RefreshAllView;
 ```
 
